@@ -118,3 +118,40 @@ body {
     color: var(--very-dark-magenta);
     font-weight: var(--fw-bolder);
 }
+
+.customer-review {
+    margin-top: 2rem;
+}
+
+.review-card {
+    background-color: var(--very-dark-magenta);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.review-card-user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.review-card-user>img {
+    border-radius: 50%;
+    max-width: 10%;
+}
+
+.review-card-user-name {
+    color: var(--light-grayish-magenta);
+    font-weight: var(--fw-bold);
+}
+
+.review-card-user-account {
+    color: var(--soft-pink);
+}
+
+.customer-review-details {
+    color: var(--light-grayish-magenta);
+    margin-top: 1rem;
+    font-weight: var(--fw-bold);
+}
