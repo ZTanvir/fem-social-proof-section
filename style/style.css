@@ -86,6 +86,8 @@ body {
 
 main {
     max-width: 90rem;
+    margin: 0 auto;
+    height: 100vh;
 }
 
 .review-details {
@@ -158,4 +160,39 @@ main {
     color: var(--light-grayish-magenta);
     margin-top: 1rem;
     font-weight: var(--fw-bold);
+}
+
+/* desktop */
+@media(min-width:53.125rem) {
+    .product-details-rating {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        gap: 4%;
+    }
+
+    .review-details {
+        flex-basis: 48%;
+        text-align: left;
+    }
+
+    .review-details-title {
+        font-size: 5rem;
+        line-height: normal;
+    }
+
+    .review-sites {
+        flex-basis: 48%;
+    }
+
+    .customer-review {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        gap: 4%;
+    }
+
+    .review-card {
+        flex-basis: 29.33%;
+    }
 }
