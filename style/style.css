@@ -88,6 +88,7 @@ main {
     max-width: 90rem;
     margin: 0 auto;
     height: 100vh;
+    padding: 5rem;
 }
 
 .review-details {
@@ -181,8 +182,18 @@ main {
         line-height: normal;
     }
 
+    .review-details-descriptions {
+        margin-top: 2rem;
+    }
+
     .review-sites {
         flex-basis: 48%;
+    }
+
+    .review-sites-details {
+        flex-direction: row;
+        padding: 1rem;
+        gap: 3rem;
     }
 
     .customer-review {
