@@ -84,6 +84,10 @@ body {
     font-size: 0.9375rem;
 }
 
+main {
+    max-width: 90rem;
+}
+
 .review-details {
     text-align: center;
     margin-bottom: 2rem;
