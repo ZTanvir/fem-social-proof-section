@@ -163,6 +163,9 @@ main {
     font-weight: var(--fw-bold);
 }
 
+/* Tablet */
+@media(min-width:550px) {}
+
 /* desktop */
 @media(min-width:53.125rem) {
     .product-details-rating {
