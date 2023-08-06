@@ -85,7 +85,7 @@ body {
 }
 
 main {
-    max-width: 90rem;
+    max-width: 75rem;
     margin: 0 auto;
     height: 100vh;
     padding: 5rem;
@@ -145,7 +145,7 @@ main {
 
 .review-card-user>img {
     border-radius: 50%;
-    max-width: 10%;
+    max-width: 20%;
 }
 
 .review-card-user-name {
@@ -164,7 +164,11 @@ main {
 }
 
 /* Tablet */
-@media(min-width:34.375rem) {}
+@media(min-width:34.375rem) {
+    .review-card-user>img {
+        max-width: 10%;
+    }
+}
 
 /* desktop */
 @media(min-width:53.125rem) {
@@ -195,8 +199,19 @@ main {
 
     .review-sites-details {
         flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
         padding: 1rem;
-        gap: 3rem;
+        max-width: 85%;
+    }
+
+    .review-sites-guru {
+        margin-left: 10%;
+    }
+
+    .review-sites-besttech {
+        margin-left: 20%;
+
     }
 
     .customer-review {
