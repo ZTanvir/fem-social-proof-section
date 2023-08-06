@@ -218,14 +218,26 @@ main {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-        gap: 4%;
+        align-items: flex-start;
+        gap: 2%;
     }
 
     .review-card {
-        flex-basis: 29.33%;
+        flex-basis: 32%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .review-card-user>img {
         max-width: 20%;
+    }
+
+    .review-card-roberts {
+        margin-top: 1rem;
+    }
+
+    .review-card-anne {
+        margin-top: 2rem;
     }
 }
