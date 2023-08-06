@@ -224,4 +224,8 @@ main {
     .review-card {
         flex-basis: 29.33%;
     }
+
+    .review-card-user>img {
+        max-width: 20%;
+    }
 }
